@@ -4,6 +4,8 @@ function getComposition(f, g) {
   };
 }
 
+
+
 function getPowerFunction(exponent) {
   return function power(x) {
     return Math.pow(x, exponent);
